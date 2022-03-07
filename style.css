@@ -454,3 +454,11 @@ img {
     text-decoration: none;
     color: #3d83df;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
